@@ -1,3 +1,12 @@
 [submodule "adapter"]
 	path = adapter
 	url = git@github.com:vmtree/adapter.git
+[submodule "solidity"]
+	path = solidity
+	url = git@github.com:vmtree/solidity.git
+[submodule "chainlink-node"]
+	path = chainlink-node
+	url = git@github.com:vmtree/chainlink-node.git
+[submodule "app"]
+	path = app
+	url = git@github.com:vmtree/app.git
