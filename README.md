@@ -43,3 +43,4 @@ We need to enhance the security of the chainlink node. Currently, the node has o
 ![terminal-output](./img/terminal_output.png)
 ![operator-ui2](./img/operator_ui2.png)
 ![etherscan](./img/etherscan.png)
+[Click here to view transaction on rinkeby etherscan.](https://rinkeby.etherscan.io/tx/0x6ac88080eea065923993ac9423b8f8071823f71f3ba4cff087c4cf99e2ae8413)
