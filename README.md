@@ -1,5 +1,5 @@
 # Chainlink Verifiable Merkle Trees
-![Chainlink Spring 2022 Hackathon Submission Video](https://www.youtube.com/watch?v=FZeOU83Ktj8)
+[![Chainlink Spring 2022 Hackathon Submission Video](https://github.com/vmtree/adapter/blob/main/images/youtube.png)](https://www.youtube.com/watch?v=FZeOU83Ktj8)
 
 [VMTree Demo Page](https://vmtree.vercel.app/)
 
