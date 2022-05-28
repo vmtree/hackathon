@@ -1,5 +1,5 @@
 # Chainlink Verifiable Merkle Trees
-[Chainlink Spring 2022 Hackathon Submission Video](https://www.youtube.com/watch?v=FZeOU83Ktj8)
+![Chainlink Spring 2022 Hackathon Submission Video](https://www.youtube.com/watch?v=FZeOU83Ktj8)
 
 [VMTree Demo Page](https://vmtree.vercel.app/)
 
@@ -30,18 +30,9 @@ This project addresses the issues with the tradeoffs by integrating with Chainli
 
 Each of these components are included as submodules in this repository. They each contain their own README files with pertinent information specific to that component.
 
-## Table of Contents
-
-- [Description](#description)
-- [Architecture](#architecture)
-- [Front End](#front-end)
-- [Software](#software)
-- [Contracts](#contracts)
-
-
 ## Description 
 
-VMTree is a 10x gas optimization effort. We use out-of-the-box thinking to save on costs; instead of gas golfing for marginal savings, we apply a completely different conceptual framework for using the blockchain. That is, rather than using blockchain computations to directly update the state of a SNARK-friendly hash function, we use blockchain computations to verify a proof that a new state is valid according to the mathematics underpinning zero knowledge proofs, and if the proof is valid, then we simply accept the new state as true.
+VMTree is a 10x gas optimization effort. We use out-of-the-box thinking to save on costs; instead of gas golfing for marginal savings, we apply a completely different conceptual framework for using the blockchain. That is, rather than using blockchain computations to directly update the state of a SNARK-friendly merkle tree, we use blockchain computations to verify a proof that a new state is valid according to the mathematics underpinning zero knowledge proofs, and if the proof is valid, then we simply accept the new state as true.
 
 With Chainlink + VMTree, users will reliably experience minimal transaction fees to deposit into privacy mechanisms that use SNARK friendly merkle trees. This is a core tool that will be useful for a multitude of zero knowledge proof applications.
 
