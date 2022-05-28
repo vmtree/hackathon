@@ -35,3 +35,11 @@ VMTree is a 10x gas optimization effort. We use out-of-the-box thinking to save 
 With Chainlink + VMTree, users will reliably experience minimal transaction fees to deposit into privacy mechanisms that use SNARK friendly merkle trees. This is a core tool that will be useful for a multitude of zero knowledge proof applications.
 
 This project is the beginning of a new Chainlink Decentralized Oracle Network. The VMTree Chainlink integration is foundational to the fully realized version of the [Twister Cash](https://twistercash.xyz/) token anonymity protocol, which is a multi-chain stablecoin mixer that will have its foundation in Arbitrum much as many other multi-chain blockchain projects have their foundation in Ethereum. We are guaranteed a first customer for this new Chainlink DON wherever the Twister Cash protocol is deployed.
+
+## Proof of State Change on Rinkeby Testnet
+We need to enhance the security of the chainlink node. Currently, the node has only run in a local terminal, but it should be running 24/7 in a cloud provider or on a dedicated machine in the future. We include a series of screenshots showing the job specification on the Chainlink node operator ui, the terminal screen during a live update, and a rinkeby etherscan transaction that the Chainlink node submitted to update a tree.
+
+![operator-ui1](./img/operator_ui.png)
+![terminal-output](./img/terminal_output.png)
+![operator-ui2](./img/operator_ui2.png)
+![etherscan](./img/etherscan.png)
