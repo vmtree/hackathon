@@ -7,7 +7,6 @@
 
 This hackathon project is an improvement project. We set out to connect [Verifiable Merkle Trees](https://github.com/twister-vmt) to the Chainlink network. From the previous README:
 
->```text
 >Verifiable Merkle Tree
 >
 >The Verifiable Merkle Tree (VMT) is a new kind of SNARK data structure that is powered by Computational Integrity Proofs (CIPS). The VMT is useful for maintaining an up-to-date merkle tree of commitments on an EVM based blockchain, e.g. Ethereum, which is so popular that demand for blockspace causes gas prices to be high at times. VMT helps reduce costs to individual users, lowering the cost barrier for use-cases like on-chain privacy.
@@ -19,7 +18,6 @@ This hackathon project is an improvement project. We set out to connect [Verifia
 >Tradeoffs
 >
 >One of the tradeoffs of this design is that we require off-chain computations to construct the SNARK proof, meaning a third party periodically pays gas to advance the tree...
->```
 
 This project addresses the issues with the tradeoffs by integrating with Chainlink. The project has four major components:
 
