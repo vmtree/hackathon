@@ -21,7 +21,7 @@ This hackathon project is an improvement project. We set out to connect [Verifia
 
 This project addresses the issues with the tradeoffs by integrating with Chainlink. The project has four major components:
 
-1. [Node configuration](https://github.com/vmtree/hackathon/commit/2add10064a7166d79e92a6b3e1c9369824ae29c2)
+1. [Node configuration](https://github.com/vmtree/chainlink-node/tree/bbf6f77530437fe5186e19b9fcc9dbf276e0174b)
 2. [External adapter](https://github.com/vmtree/adapter/tree/75fee505734b90496b7559768cb4efeddb25c2a7)
 3. [Solidity contracts](https://github.com/vmtree/solidity/tree/92606598b3e9835fd583155c9e79bf3d31096e6c)
 4. [Web admin panel](https://github.com/vmtree/app/tree/1f80b792525ec803d85cd4676f32cead38a56f19)
